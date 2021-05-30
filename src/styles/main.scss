@@ -1,0 +1,126 @@
+@import "variables";
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: $black;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.body-content {
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 0px 20px;
+    height: 2000px;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+}
+
+#headerbar {
+    margin-top: 40px;
+}
+
+#headliner {
+    max-width: 563px;
+    width: 100%;
+    margin: 0;
+    padding: 160px 0px;
+
+    .name-header {
+        font-size: 5rem;
+        font-weight: 800;
+        color: $black;
+        letter-spacing: 0px;
+        line-height: 80px;
+        margin: .67em 0;
+
+        span.emoji-3d {
+            margin-left: 15px;
+            cursor: pointer;
+            user-select: none;
+        }
+    }
+
+    p {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 22px;
+        color: $black;
+        letter-spacing: 0px;
+        line-height: 42px;
+        margin-top: 0px;
+        margin-bottom: 36px;
+    }
+
+    p.light-grey {
+        color: $light-grey;
+    }
+}
+
+a {
+    position: relative;
+    display: inline-flex;
+    font-size: 22px;
+    color: inherit;
+    letter-spacing: 0px;
+    line-height: 30px;
+    padding-bottom: 2px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    align-items: center;
+    margin-bottom: 0px;
+    transition: all 0.2s ease-in-out 0s;
+
+    &:hover {
+        color: rgb(17, 17, 17);
+        border-color: rgb(17, 17, 17);
+    }
+}
+
+#worked-on {
+    small {
+        font-weight: 500;
+        font-size: 16px;
+        color: $light-grey;
+        letter-spacing: 0px;
+        line-height: normal;
+        backface-visibility: hidden;
+    }
+
+    h2 {
+        font-weight: 600;
+        font-size: 26px;
+        color: $black;
+        letter-spacing: 0px;
+        line-height: 31px;
+        margin: 0px 0px 60px;
+    }
+
+    .work-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+
+        &__item {
+            margin-bottom: 80px;
+            width: 48%;
+            max-width: 580px;
+
+            img {
+                width: 100%;
+            }
+
+            .text {
+                font-weight: 400;
+                font-size: 20px;
+                color: $black;
+                letter-spacing: 0px;
+                margin-top: 27px;
+            }
+        }
+    }
+}

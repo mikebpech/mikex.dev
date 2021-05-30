@@ -3,12 +3,19 @@ module.exports = {
     title: "mikex.dev",
   },
   plugins: [
-    "gatsby-plugin-styled-components",
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        sassOptions: {
+          includePaths: ["styles/"],
+        }
+      }
+    },
     "gatsby-plugin-image",
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: "",
+        trackingId: "G-1ZFKLX73T5",
       },
     },
     "gatsby-plugin-react-helmet",
@@ -29,5 +36,15 @@ module.exports = {
       },
       __key: "images",
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Rubik\:300,500,700`,
+          `open sans\:300,400,700` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
+    }
   ],
 };
