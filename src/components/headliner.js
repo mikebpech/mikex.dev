@@ -36,7 +36,7 @@ const Headliner = () => {
           is building awesome products that help shape the 🌎 for the better.
         </p>
         <p className="light-grey">
-          Co-founder at <a href="https://omnidata.io">OmniData</a>. Currently working at <a href="https://bananatag.com">Bananatag 🍌</a> as a <b>Software Developer II</b>
+          Co-founder at <a href="https://omnidata.io">OmniData</a>. Currently working at <a href="https://bananatag.com">Bananatag 🍌</a> as a <b>Software Developer III</b>
         </p>
         <p className="light-grey">
           Read more about <a href="#">my past experiences 🔮</a>

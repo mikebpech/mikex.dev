@@ -3,33 +3,33 @@ import Fade from 'react-reveal/Fade';
 
 const WorkedOn = () => {
     return (
-        <Fade up>
+        <Fade left>
             <section id="worked-on">
                 <small>Get to know my recent work</small>
-                <h2>Things I've worked on</h2>
+                <h2>Who I worked with</h2>
                 <div className="work-items">
                     <div className="work-items__item">
-                        <img src="http://www.bobby.so/6abda4ff7077e485c7ddb66ec4e3fb05.png" alt="alal" />
+                        <img src="/static/renegades.png" alt="alal" />
                         <div className="text">
-                            Human is a home for building a joyful world
+                            Renegades is a professional esports organization with teams competing in Valorant, COD, Rocket League, CS:GO...
                         </div>
                     </div>
                     <div className="work-items__item">
-                        <img src="http://www.bobby.so/6abda4ff7077e485c7ddb66ec4e3fb05.png" alt="alal" />
+                        <img src="/static/everland.png" alt="alal" />
                         <div className="text">
-                            Human is a home for building a joyful world
+                            Everland is a social MMO.
                         </div>
                     </div>
                     <div className="work-items__item">
-                        <img src="http://www.bobby.so/6abda4ff7077e485c7ddb66ec4e3fb05.png" alt="alal" />
+                        <img src="/static/narcitymedia.png" alt="Narcity Media" />
                         <div className="text">
-                            Human is a home for building a joyful world
+                            Narcity Media Inc. is a Canadian online media company that owns and operates Narcity and MTL Blog.
                         </div>
                     </div>
                     <div className="work-items__item">
-                        <img src="http://www.bobby.so/6abda4ff7077e485c7ddb66ec4e3fb05.png" alt="alal" />
+                        <img src="/static/thespike.png" alt="alal" />
                         <div className="text">
-                            Human is a home for building a joyful world
+                            THESPIKE.GG is the leading website for VALORANT News, VALORANT Event Coverage & VALORANT Team Rankings.
                         </div>
                     </div>
                 </div>
